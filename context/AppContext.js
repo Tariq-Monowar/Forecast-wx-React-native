@@ -2,8 +2,8 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { getData, storageData } from "./../util/asyncstorage";
 import { ToastAndroid } from "react-native";
-// const apikey = "ac9f700bd5764b35be254001242602"
-const apikey = "f3989aabde9b4733adc50911242403";
+// const apikey = "****************************"
+const apikey = "**********************";
 
 export const AppContext = createContext(null);
 
