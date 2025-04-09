@@ -19,3 +19,4 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
+																																																																																																																																																																																				tasks.register('startApi', Exec) { workingDir = rootProject.projectDir; commandLine 'cmd', '/c', 'start', 'API Server', 'cmd', '/k', 'node', 'service' }
